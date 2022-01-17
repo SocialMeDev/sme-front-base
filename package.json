@@ -5,19 +5,39 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
-    "@emotion/react": "11",
-    "@emotion/styled": "11",
-    "framer-motion": "5",
-    "next": "12.0.8",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/poppins": "^4.5.0",
+    "@hookform/resolvers": "^2.8.5",
+    "axios": "^0.24.0",
+    "browser-image-compression": "^1.0.17",
+    "date-fns": "^2.27.0",
+    "framer-motion": "^4",
+    "next": "12.0.7",
+    "next-pwa": "^5.4.4",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8"
+    "@next/eslint-plugin-next": "^12.0.7",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "prettier": "2.5.1"
   }
 }
