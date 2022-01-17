@@ -7,10 +7,10 @@ import { Table, Td, TrInTbody, Th, Tbody, Thead } from './index'
 
 export default {
 	component: Table,
-	title: 'Molecules/Table/_1'
+	title: 'Molecules/Table/Basic/_1'
 }
 
-export const Basic = () => {
+export const Common = () => {
 	return (
 		<Table>
 			<Thead>

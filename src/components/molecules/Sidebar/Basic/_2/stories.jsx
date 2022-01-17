@@ -8,11 +8,11 @@ import Sidebar from '.'
 
 export default {
 	component: Sidebar,
-	title: 'Molecules/Sidebar/_2',
+	title: 'Molecules/Sidebar/Basic/_2',
 	argTypes: {}
 }
 
-export const Basic = (args) => {
+export const Common = (args) => {
 	const sidebarItems = [
 		{
 			name: 'Grupo 1',

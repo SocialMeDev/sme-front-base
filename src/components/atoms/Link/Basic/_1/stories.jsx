@@ -3,7 +3,7 @@ import Link from '.'
 
 export default {
 	component: Link,
-	title: 'Atoms/Link/_1',
+	title: 'Atoms/Link/Basic/_1',
 	argTypes: {
 		href: {
 			name: 'href',
@@ -17,7 +17,7 @@ export default {
 	}
 }
 
-export const Basic = (args) => (
+export const Common = (args) => (
 	<Link {...args}>
 		<Button>Link</Button>
 	</Link>

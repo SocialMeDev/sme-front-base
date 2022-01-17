@@ -2,7 +2,7 @@ import Card from '.'
 
 export default {
 	component: Card,
-	title: 'Atoms/Card/_2',
+	title: 'Atoms/Card/Basic/_2',
 	argTypes: {
 		label: {
 			name: 'label',
@@ -16,4 +16,4 @@ export default {
 	}
 }
 
-export const Basic = (args) => <Card {...args} />
+export const Common = (args) => <Card {...args} />

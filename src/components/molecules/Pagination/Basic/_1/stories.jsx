@@ -4,7 +4,7 @@ import Pagination from '.'
 
 export default {
 	component: Pagination,
-	title: 'Molecules/Pagination/_1',
+	title: 'Molecules/Pagination/Basic/_1',
 	argTypes: {
 		currentPage: {
 			name: 'currentPage',
@@ -55,7 +55,7 @@ export default {
 	}
 }
 
-export const Basic = (args) => {
+export const Common = (args) => {
 	const [page, setPage] = useState(1)
 
 	function onChangePage(nextPage) {

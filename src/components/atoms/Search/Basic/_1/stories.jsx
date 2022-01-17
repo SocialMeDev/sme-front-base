@@ -5,10 +5,10 @@ import Search from '.'
 
 export default {
 	component: Search,
-	title: 'Atoms/Search/_1'
+	title: 'Atoms/Search/Basic/_1'
 }
 
-export const Basic = (args) => {
+export const Common = (args) => {
 	const { register, watch } = useForm({
 		defaultValues: { input: 'Input' }
 	})

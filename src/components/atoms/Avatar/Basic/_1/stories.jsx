@@ -6,7 +6,7 @@ const props = {
 
 export default {
 	component: Avatar,
-	title: 'Atoms/Avatar/_1',
+	title: 'Atoms/Avatar/Basic/_1',
 	args: props,
 	argTypes: {
 		src: {
@@ -33,4 +33,4 @@ export default {
 	}
 }
 
-export const Basic = (args) => <Avatar {...props} {...args} />
+export const Common = (args) => <Avatar {...props} {...args} />

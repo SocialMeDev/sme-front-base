@@ -12,7 +12,7 @@ const props = {
 
 export default {
 	component: TagsGroup,
-	title: 'Atoms/TagsGroup/_1',
+	title: 'Atoms/TagsGroup/Basic/_1',
 	args: props,
 	argTypes: {
 		onRemoveTag: {
@@ -44,6 +44,6 @@ export default {
 	}
 }
 
-export const Basic = (args) => {
+export const Common = (args) => {
 	return <TagsGroup onRemoveTag={() => null} {...args} {...props} />
 }

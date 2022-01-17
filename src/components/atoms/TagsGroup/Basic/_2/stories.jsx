@@ -27,7 +27,7 @@ const props = {
 
 export default {
 	component: TagsCell,
-	title: 'Atoms/TagsGroup/_2',
+	title: 'Atoms/TagsGroup/Basic/_2',
 	args: props,
 	argTypes: {
 		totalToShow: {
@@ -54,4 +54,4 @@ export default {
 	}
 }
 
-export const Basic = (args) => <TagsCell {...props} {...args} />
+export const Common = (args) => <TagsCell {...props} {...args} />

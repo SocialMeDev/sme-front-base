@@ -6,13 +6,13 @@ import Navbar from '.'
 
 export default {
 	component: Navbar,
-	title: 'Molecules/Navbar/_1',
+	title: 'Molecules/Navbar/Basic/_1',
 	argTypes: {
 		noSideBar: {}
 	}
 }
 
-export const Basic = (args) => (
+export const Common = (args) => (
 	<SideBarProvider>
 		<Card>
 			<Navbar {...args} />

@@ -28,4 +28,4 @@ export default {
 		}
 	}
 }
-export const Basic = (args) => <UploadSingle {...props} {...args} />
+export const Common = (args) => <UploadSingle {...props} {...args} />

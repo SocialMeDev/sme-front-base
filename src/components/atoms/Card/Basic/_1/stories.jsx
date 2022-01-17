@@ -4,10 +4,10 @@ import Card from '.'
 
 export default {
 	component: Card,
-	title: 'Atoms/Card/_1'
+	title: 'Atoms/Card/Basic/_1'
 }
 
-export const Basic = (args) => (
+export const Common = (args) => (
 	<Card {...args}>
 		<VStack>
 			<Avatar src="https://uifaces.co/our-content/donated/1H_7AxP0.jpg" />
