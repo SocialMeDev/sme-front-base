@@ -34,6 +34,7 @@
     "no-else-return": "error",
     "no-loop-func": "error",
     "no-useless-return": "error",
+    "import/no-anonymous-default-export": "off",
     "prefer-const": "warn",
     "prefer-destructuring": "warn",
     "prefer-spread": "warn",
