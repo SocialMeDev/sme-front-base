@@ -6,7 +6,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "src-add": "git subtree add --prefix src https://github.com/SocialMeDev/sme-front-source.git main --squash",
+    "src-push": "git subtree push --prefix src https://github.com/SocialMeDev/sme-front-source.git main",
+    "src-pull": "git subtree pull --prefix src https://github.com/SocialMeDev/sme-front-source.git main --squash"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
