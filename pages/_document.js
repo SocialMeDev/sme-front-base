@@ -9,7 +9,13 @@ class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
-				<Head />
+				<Head>
+					<link rel="manifest" href="pwa/manifest.json" />
+					<link rel="shortcut icon" href="icon.png" />
+					<link rel="apple-touch-icon" href="icon.png" />
+
+					<meta name="theme-color" content="#fff" />
+				</Head>
 				<body>
 					<Main />
 					<NextScript />
